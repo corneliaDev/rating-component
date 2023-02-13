@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="container">
+    <!-- Rating state start -->
+    <div class="rating">
+      <div class="component rating-component">
+        <div class="rating-component__img">
+          <img
+            src="images/icon-star.svg"
+            alt="star"
+            class="rating-component__star"
+          />
+        </div>
+        <div class="rating-component__content">
+          <h1 class="header-1">How did we do?</h1>
+          <p class="rating-component__text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="rating-component__counter">
+          <button data-number="1" class="rating-component__number">
+            <span>1</span>
+          </button>
+          <button data-number="2" class="rating-component__number">
+            <span>2</span>
+          </button>
+          <button data-number="3" class="rating-component__number">
+            <span>3</span>
+          </button>
+          <button data-number="4" class="rating-component__number">
+            <span>4</span>
+          </button>
+          <button data-number="5" class="rating-component__number">
+            <span>5</span>
+          </button>
+        </div>
+        <button class="rating-component__btn-submit">Submit</button>
+      </div>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+
+      <div class="component thanks-component thanks-component--hidden">
+        <div class="thanks-component__img">
+          <img
+            src="images/illustration-thank-you.svg"
+            alt="phone, card and receipt composition image"
+            class="thanks-component__phone"
+          />
+        </div>
+        <div class="thanks-component__selection">
+          You selected
+          <!-- Add rating here -->
+          <span class="thanks-component__selection-value"></span>
+          out of 5
+        </div>
+        <div class="thanks-component__content">
+          <h1 class="header-1">Thank you!</h1>
+          <p class="thanks-component__text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don&apos;t hesitate to get in touch!
+          </p>
+        </div>
+        <!-- Thank you state end -->
+      </div>
+
+      <div class="footer">
+        <span class="footer__text">Challenge by: </span>
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        <span class="footer__text">Coded by: </span>
+
+        <a href="#">Cornelia</a>.
+      </div>
+    </div>
+  </body>
+</html>

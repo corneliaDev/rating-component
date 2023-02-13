@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 2rem;
+  font-size: 11px;
+
+  &__text {
+    display: inline-block;
+    padding: 0 1rem;
+    color: var(--color-white);
+  }
+
+  a {
+    color: var(--color-purple);
+  }
+}
