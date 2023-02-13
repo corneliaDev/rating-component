@@ -141,6 +141,7 @@ body {
 }
 .rating-component__number {
   background-color: var(--color-blue-medium);
+  color: var(--color-grey-medium);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,7 +169,8 @@ body {
   background-color: var(--color-grey-medium);
 }
 .rating-component__btn-submit {
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-white);
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -183,6 +185,10 @@ body {
     background-color: var(--color-primary);
     color: var(--color-white);
   }
+}
+.rating-component__btn-submit:hover, .rating-component__btn-submit:active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 .rating-component--hidden {
   display: none;
