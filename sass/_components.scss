@@ -43,7 +43,6 @@
 
   &__number {
     background-color: var(--color-blue-medium);
-    color: var(--color-grey-medium);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +52,7 @@
     border: none;
 
     span {
-      color: var(--color-white);
+      color: var(--color-grey-medium);
       font-weight: 700;
       font-size: 1.7rem;
     }
@@ -77,6 +76,7 @@
     letter-spacing: 1px;
     display: block;
     padding: 1.3rem 4rem;
+    border: none;
     border-radius: 2.5rem;
     cursor: pointer;
 

@@ -141,7 +141,6 @@ body {
 }
 .rating-component__number {
   background-color: var(--color-blue-medium);
-  color: var(--color-grey-medium);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,7 +156,7 @@ body {
   border: none;
 }
 .rating-component__number span {
-  color: var(--color-white);
+  color: var(--color-grey-medium);
   font-weight: 700;
   font-size: 1.7rem;
 }
@@ -177,6 +176,7 @@ body {
   letter-spacing: 1px;
   display: block;
   padding: 1.3rem 4rem;
+  border: none;
   border-radius: 2.5rem;
   cursor: pointer;
 }
