@@ -187,8 +187,8 @@ body {
   }
 }
 .rating-component__btn-submit:hover, .rating-component__btn-submit:active {
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-primary);
 }
 .rating-component--hidden {
   display: none;
