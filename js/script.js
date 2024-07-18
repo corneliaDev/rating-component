@@ -12,10 +12,13 @@ let rating = 0;
 
 ratingComponentCounter.addEventListener("click", function (e) {
   const clicked = e.target.closest(".rating-component__number");
+  const active = document.querySelector(".rating-component__number--active");
   if (!clicked) return;
+  if (active) {
+    active.classList.remove("rating-component__number--active");
+  }
   clicked.classList.add("rating-component__number--active");
   rating = Number(clicked.dataset.number);
-  console.log(rating);
   return rating;
 });
 

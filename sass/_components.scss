@@ -55,10 +55,6 @@
       color: var(--color-grey-medium);
       font-weight: 700;
       font-size: 1.7rem;
-
-      &:active {
-        color: var(--color-white);
-      }
     }
 
     &:hover {
@@ -66,8 +62,11 @@
       cursor: pointer;
     }
 
-    &:active {
+    &--active {
       background-color: var(--color-grey-medium);
+      span {
+        color: var(--color-white);
+      }
     }
   }
 

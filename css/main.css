@@ -167,6 +167,9 @@ body {
 .rating-component__number--active {
   background-color: var(--color-grey-medium);
 }
+.rating-component__number--active span {
+  color: var(--color-white);
+}
 .rating-component__btn-submit {
   background-color: var(--color-primary);
   color: var(--color-white);
