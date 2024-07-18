@@ -62,7 +62,7 @@
       cursor: pointer;
     }
 
-    &:active span {
+    &--active span {
       background-color: var(--color-grey-medium);
       color: var(--color-white);
     }
