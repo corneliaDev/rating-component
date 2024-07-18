@@ -62,6 +62,11 @@
       cursor: pointer;
     }
 
+    &:active {
+      background-color: var(--color-grey-medium);
+      color: var(--color-white);
+    }
+
     &--active {
       background-color: var(--color-grey-medium);
       color: var(--color-white);
